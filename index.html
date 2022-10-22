@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculos.js"></script>
+    <title> ALURA | Calculadora - aula 1</title>
+</head>
+<body>
+
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" class="alura-logo">
+    </a>
+
+
+    <div class="container">
+
+        <div class="foto-a">
+            <img src="https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png">
+        </div>
+
+
+        <div class="campo-nota">
+            
+            <h1 class="titulo"> Calculadora De Média </h1>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo"> <br><br>
+    
+            
+            <h5> Descubra qual a sua média, de todas as notas da prova! </h5>
+            <h5> Nota do 1º bimestre: 
+            <input type="number" id="valorNotaUm" ></h5>
+    
+            <h5> Nota do 2º bimestre:
+            <input type="number" id="valorNotaDois" ></h5>
+    
+            <h5> Nota do 3º bimestre:
+            <input type="number" id="valorNotaTres" ></h5><br>
+            
+            <button type="submit" onclick="somar()"> Média Final </button>
+            <h5 id="valorMedia"></h5>
+        </div>
+    </div>
+
+
+</body>
+</html>
